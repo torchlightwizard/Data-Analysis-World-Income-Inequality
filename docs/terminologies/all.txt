@@ -1,0 +1,13 @@
+-Earnings: Amount gained by job/service/labour wages or business (active management).
+-Market Income: Amount gained by service/labour wages and business (active management). Business side of things.
+-Income: Amount gained by earnings, market income and other passive sources (e.g investments, bank profits, pension, rent) (not active management).
+
+-Gross: Amount from source.
+-Taxable: The amount subject to taxes after deducting non taxable amount.
+-Net: Amount after deducting taxes or operation costs (in case of business). Profit.
+-Monetary: Amount in cash. Could be any of above.
+
+-Primary: Same as earnings.
+-Factor: Wages, rent, interest, profit. Not pension, benefits, investments, gifts, inheritance, capital gain, lottery.
+
+-Capital Gain: Profit by purchase and sale of real estate or stocks.

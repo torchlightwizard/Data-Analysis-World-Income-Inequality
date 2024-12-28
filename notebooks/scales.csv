@@ -1,0 +1,28 @@
+scale,scale_detailed,sharing_unit,reference_unit,count
+Equivalized,1977 McClements scale,Household,Person,43
+Equivalized,1988 revised Jensen scale,Household,Person,12
+Equivalized,"Census family equivalized, square root",Household,Person,8
+Equivalized,"Economic family equivalized, square root",Household,Person,22
+Equivalized,Equivalized,Household,Household,8
+Equivalized,Equivalized,Household,Person,2657
+Equivalized,Family equivalized,Household,Person,7
+Equivalized,"Family equivalized, OECD",Household,Person,4
+Equivalized,"Family equivalized, national scale",Household,Person,8
+Equivalized,"Family equivalized, social assistance",Household,Person,25
+Equivalized,"Family equivalized, square root",Household,Person,9
+Equivalized,"Household equivalized, social assistance",Household,Person,15
+Equivalized,National scale,Household,Person,20
+Equivalized,OECD,Household,Person,11
+Equivalized,OECD-modified,Household,Person,659
+Equivalized,"Tax unit equivalized, square root",Tax unit,Person,1
+No adjustment,No adjustment,Household,Family,2
+No adjustment,No adjustment,Household,Household,1330
+No adjustment,No adjustment,Household,Person,8
+No adjustment,No adjustment,Person,Person,768
+No adjustment,No adjustment,Tax unit,Tax unit,49
+Per capita,Family per capita,Household,Person,93
+Per capita,Head of household,Household,Person,22
+Per capita,Per capita,Family,Person,6
+Per capita,Per capita,Household,Person,4805
+Per capita,Tax unit per capita,Household,Person,2
+Per capita,Tax unit per capita,Tax unit,Person,1
