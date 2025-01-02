@@ -11,3 +11,18 @@
 -Factor: Wages, rent, interest, profit. Not pension, benefits, investments, gifts, inheritance, capital gain, lottery.
 
 -Capital Gain: Profit by purchase and sale of real estate or stocks.
+
+-Per Capita: Total divided by each individual person.
+-Equivalized: Income adjusted for household. E.g [House income/total members] or [House income/weighted total members].
+-No Adjustment: Total.
+
+-Sharing Unit: Income earned is shared among a group, each group is defined by a sharing unit.
+-Reference Unit: Each individual entity in a sharing unit/group.
+
+-Household (Sharing Unit): Set of people living in a house regardless of family or not.
+-Family (Sharing Unit): Set of people who are biologically related, could span multiple households or maybe multiple families could span one household.
+-Tax Unit (Sharing Unit): If the government considers 18+ year olds as separate tax payers from parents in same household.
+-Person (Sharing Unit): Individual entity regardless of set.
+
+-Household (Reference Unit): Set of people living in a house regardless of family or not, treated as individual entity in a set.
+-Person (Reference Unit): Individual entity in a set.
