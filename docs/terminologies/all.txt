@@ -26,3 +26,57 @@
 
 -Household (Reference Unit): Set of people living in a house regardless of family or not, treated as individual entity in a set.
 -Person (Reference Unit): Individual entity in a set.
+
+-1977 McClements scale (Scale): Income for one household divided by the household size adjusted by McClements-specific weights for each member (e.g children vs adults).
+income / household size (weighted by McClements factors)
+-1988 Revised Jensen scale (Scale):  Income for one household divided by the household size adjusted by using revised Jensen-specific weights, which account for cost variations by member type.
+income / household size (weighted by Jensen factors)
+-Census family equivalized, square root (Scale): Income for one household divided by the square root of number of household members. This assumes each household's size impacts its standard of living.
+income / sqrt(number of household members)
+-**Economic family equivalized, square root (Scale): Income for one household classified as an "economic family" divided by the square root of number of household members in that family.
+income / sqrt(number of household members)
+-**Equivalized (Reference Unit: Person) (Scale): Income for one household divided by the household size using an unspecified equalization method. Assuming each member contributes equally to the resource needs.
+income / household size (equivalized method unspecified)
+-**Equivalized (Reference Unit: Household) (Scale): Income for one household using an unspecified equalization method.
+-Family equivalized (Scale): Income for one household divided by the household size using family-specific equivalence scales to adjust for resources needed across members.
+income / adjusted household size (family equivalence scale)
+-Family equivalized, OECD (Scale): Income for one household divided by the household size adjusted using OECD equivalence scales that assign lower weights to additional adults and children.
+income / (1 + 0.7 * (number of adults - 1) + 0.5 * number of children)
+-Family equivalized, national scale (Scale): Income for one household divided by the household size using equivalence scales specific to the country of analysis.
+income / household size (weighted by national equivalence scale)
+-Family equivalized, social assistance (Scale): Income for one household divided by the household size adjusted using equivalence scales derived from social assistance frameworks for resource distribution.
+income / adjusted household size (social assistance scale)
+-Family equivalized, square root (Scale): Income for one household divided by the square root of number of household members to account for economies of scale in larger families.
+income / sqrt(number of household members)
+-Household equivalized, social assistance (Scale): Income for one household divided by the household size using equivalence scales tailored to social assistance needs for households.
+income / adjusted household size (social assistance scale)
+-National scale (Scale): Income for one household divided by the household size using a national defined equivalence scale for resource sharing.
+income / household size (weighted by national scale)
+-OECD (Scale): Income for one household divided by the household size adjusted using OECD equivalence scales which assumes economies of scale for adults and children.
+income / (1 + 0.7 * (number of adults - 1) + 0.5 * number of children)
+-**OECD Modified (Scale): Income for one household divided by the household size adjusted using OECD equivalence scales that assign lower weights to additional adults and children.
+income / (1 + 0.7 * (number of adults - 1) + 0.5 * number of children)
+-Tax unit,  equivalized, square root (Scale): Income for one tax unit (group filing taxes together) divided by the square root of members to acount for shared financial responsibilities.
+tax unit income / sqrt(number of people in the tax unit)
+-**No adjustment (Sharing Unit: Household) (Reference Unit: Family) (Scale): Total income for house? or family? without any adjustments for size or composition.
+income (household? or family?)
+-No adjustment (Sharing Unit: Household) (Reference Unit: Household) (Scale): Total income for house without any adjustments for size or composition.
+income (household)
+-**No adjustment (Sharing Unit: Household) (Reference Unit: Person) (Scale): Total income for house? or family? without any adjustments for size or composition.
+income (household? or family?)
+-No adjustment (Sharing Unit: Person) (Reference Unit: Person) (Scale): Total income for a person without any context for household or family.
+income (person)
+-No adjustment (Sharing Unit: Tax Unit) (Reference Unit: Tax Unit) (Scale): Total income for a one tax unit without considering any member size or equivalence adjustment.
+income (tax unit)
+-Family per capita (Scale): Income for one family (group) divided by the number of family members.
+family income / number of family members
+-Head of household (Scale): Income of the head of one family (group), disregarding income from other members in the group.
+income of the household head only
+-Per capita (Sharing Unit: Family) (Scale):  Income for one family divided by number of family members.
+family income / number of family members
+-Per capita (Sharing Unit: Household) (Scale): Income for one household divided by number of household members.
+household income / number of household members
+-**Tax unit per capita (Sharing Unit: Household) (Scale): Income for one tax unit? or household? (group) divided by number of members of the tax unit? or household?.
+tax unit? or household? income / number of people in the tax unit? or household?
+-**Tax unit per capita (Sharing Unit: Tax Unit) (Scale): Income for one tax unit (group) divided by number of members of the tax unit.
+tax unit income / number of people in the tax unit
