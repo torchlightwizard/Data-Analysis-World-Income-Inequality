@@ -80,3 +80,4 @@ household income / number of household members
 tax unit? or household? income / number of people in the tax unit? or household?
 -**Tax unit per capita (Sharing Unit: Tax Unit) (Scale): Income for one tax unit (group) divided by number of members of the tax unit.
 tax unit income / number of people in the tax unit
+

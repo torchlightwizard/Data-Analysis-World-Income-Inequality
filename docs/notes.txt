@@ -1,0 +1,16 @@
+# Problem
+1. How should we analyze data. That shows a lot of categories. And alot of them do not have enough data to formulate good trends or analytics.
+
+2. Each of the Economic/Population scales of measurement is a separate metric, therefore cannot be combined. There are 27 of them.
+
+3. Should World Bank's "incomegroup" be treated as unique too like the Economic/Population scales or can they be combined?
+
+
+
+# Possible Solutions
+1. Maybe some categories can be ignored in favour of other categories. E.g rural vs urban for all countries, where specific country is ignored.
+E.g Specific country combined, disregarding if its mostly a rural country or not.
+
+We can choose a specific metric, E.g median currency, and group them by categories of choice e.g population, region, reference period etc.
+
+3. Maybe we dont require to group data based on "incomegroup" because it is a label and not a scale of measurement.
